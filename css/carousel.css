@@ -1,0 +1,291 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+/*   padding-top: 3rem;
+  padding-bottom: 3rem;  */
+  color: #5a5a5a;
+  font-family: 'Open Sans', sans-serif;
+
+}
+html {
+    font-style: 10px;
+}
+
+
+a
+{
+    display: inline-block;
+}
+
+.navi{
+   border: 1px solid rgba(0,0,0,0.1);
+      background-color: rgba(0, 0, 1, 0.675);
+}
+
+.btn /* ознакомиться */ 
+{
+   background: #777; 
+}
+/* ART-LEAVE */
+.logo
+{     
+    height: 45px;
+    width: 220px;
+   background: url(../images/batter1.png) no-repeat;
+/* бабочка на будущее */ 
+    background-size: 75%;
+    
+     font-family:  ravie;
+    font-size: 30px;
+    padding-top: 60px;
+    margin-right: 60px;
+   /*  text-align:  center; */
+/*     text-decoration-color:  #333;  потом придумаю как поменять цвет*/
+    z-index: 2;            /*     эти две стоки сделали так что лого впереди подложкки */
+    position: relative;   
+}
+.logo:hover
+{
+     background: url(../images/batter2.png) no-repeat;
+      background-size: 45%;
+}
+
+
+
+/*  <----------style-------------->*/
+
+.main-header {
+    position: relative;
+    z-index: 2;
+}
+.main-header h1{
+    margin: 18rem 0rem 4rem 0rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 4.8rem
+}
+.main-header h2{
+    margin: 18rem 0rem 4rem 0rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 3.8rem
+}
+
+.main-header p{
+    font-size: 1.3rem 
+}
+/* -------------------------------------------------- */
+
+/* Carousel base class положиение 2 части относительно первой
+/* .carousel {
+  margin-bottom: 8rem;
+} */
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+  bottom: 7rem;
+    
+   text-align:center;
+    padding:2px 10px;
+    border-right: 1px solid  rgb(214, 77, 36);
+    border-left: 1px solid  #c3c3c3;
+    border: 1px solid rgba(0,0,0,0.1);
+      background-color: rgba(0, 0, 1, 0.675);
+    list-style: none; 
+     
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 850px;
+  background-color: #5a5a5a;
+    
+  
+}
+.fis{
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 2;
+}
+.fis1
+{
+ 
+    background: url(../images/h-8207.jpg) no-repeat ;
+ 
+ position: relative;/*  что эт */
+    display: table;
+    width: 100%;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    height: 100vh;
+    background-size:100%; 
+  background-position: center   ;
+   -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.fis3
+{
+      
+    background: url(../images/gall1.jpg) no-repeat;
+ position: relative;/*  что эт */
+    display: table;
+    width: 100%;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    height: 100vh;
+    background-size:100%; 
+  background-position: center   ;
+   -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+.time{
+    background: url(../images/clocl.jpg);
+    position: relative;/*  что эт */
+    display: table;
+    width: 100%;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    height: 100vh;
+    background-size:100%; 
+  background-position: center   ;
+   -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+/* .marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: normal;
+}
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+ */
+
+
+/* что такое арт терапия
+------------------------- */
+ .photo{
+    height: 220px;
+    width: 230px;
+    background: url(../images/photo.png) no-repeat;
+     background-size:100%; 
+  background-position: right;
+   -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+   
+     
+}
+.col-md-9 h2{
+     
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 2.8rem
+}
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -.05rem;
+}
+.featurette-image{
+    width: 500px;
+    height: 500px;
+}
+
+
+.footer{
+    background-color: #646464;
+    color: #fff;
+    text-align: center;
+    padding: 2rem 0;
+}
+.footer strong {
+    font-weight: 300;
+    font-size: 1.2rem;
+    
+}
+.social-links {
+    margin-top: 1rem;
+    
+}
+.social-links a{
+    width: 5rem;
+    height: 5rem;
+    line-height: 5rem;
+    display: inline-block;
+    color: #fff;
+    border:solid 1px #fff;
+    border-radius: 5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-size: 2rem;
+    -webkit-transition: 0.2s;
+    -o-transition: 0.2s;
+    transition: 0.2s;    
+}
+.social-links a:hover{
+    background-color: #fff;
+    color: #646464;
+    
+}
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 40em) {
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+  ette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+ 
+  .featur
+}
+
+ 
